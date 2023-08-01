@@ -1,7 +1,11 @@
+import HeaderComponent from '@/components/common/Header';
+import Link from 'next/link';
+import Styles from '../styles/header.module.scss';
+
 export default function Home() {
-  const a = {
-    a: 1,
-    b: 2,
-  };
-  return <>Hello, World!</>;
+  return (
+    <>
+      <HeaderComponent />
+    </>
+  );
 }
