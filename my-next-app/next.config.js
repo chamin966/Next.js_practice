@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: false,
+  reactStrictMode: true,
   images: {
-    domains: ['lecture-1.vercel.app'],
+    domains: ['lecture-1.vercel.app', 'search.pstatic.net'],
   },
 };
 
