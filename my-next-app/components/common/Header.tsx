@@ -7,11 +7,11 @@ interface Props {
   rightElements?: React.ReactElement[];
 }
 
-const HeaderComponent = ({ rightElements }: Props) => {
+const Header = ({ rightElements }: Props) => {
   return (
     <header className={styles.header}>
       <div className={styles.flexItem}>
-        <Link href={'/feedback'} className={styles.box}>
+        <Link href={'/'} className={styles.box}>
           <Image
             src="/inflearn.png"
             alt={'인프런 로고'}
@@ -25,4 +25,4 @@ const HeaderComponent = ({ rightElements }: Props) => {
   );
 };
 
-export default HeaderComponent;
+export default Header;
